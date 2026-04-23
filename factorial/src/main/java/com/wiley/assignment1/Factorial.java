@@ -42,7 +42,7 @@ public class Factorial {
 			 return -1;
 		 }
 
-		 int num = this.scanner.nextInt();
+		 this.num = this.scanner.nextInt();
 
 		 //check whether the input is in range
 		 if(num<1 || num>10){
